@@ -1,0 +1,5 @@
+model_name_or_path: Qwen/Qwen3-8B-Base
+adapter_name_or_path: saves/Qwen3-8B-Base-0514-rewrite_search/lora/sft
+template: qwen3
+finetuning_type: lora
+infer_backend: huggingface #choices： [huggingface, vllm]

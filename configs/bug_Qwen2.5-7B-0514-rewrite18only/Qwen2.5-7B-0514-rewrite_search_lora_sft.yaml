@@ -6,7 +6,7 @@ do_train: true
 finetuning_type: lora
 lora_target: all
 
-dataset: Rewrite
+dataset: Rewrite-search
 template: qwen
 
 cutoff_len: 1024
@@ -17,7 +17,7 @@ overwrite_cache: true
 
 preprocessing_num_workers: 16
 
-output_dir: saves/Qwen2.5-7B-0425-rewrite18only/lora/sft
+output_dir: saves/Qwen2.5-7B-0514-rewrite_search/lora/sft
 
 # training hyper params
 logging_steps: 10
